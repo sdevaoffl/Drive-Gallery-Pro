@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drive Gallery Pro - Professional Google Drive Gallery for WordPress</title>
+    <meta name="description" content="Showcase your Google Drive files in a beautiful, responsive gallery on your WordPress site. Lightbox, filtering, and Elementor support included.">
+    
+    <!-- External CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <nav>
+                <a href="#" class="logo">
+                    <img src="assets/images/logo.png" alt="Drive Gallery Pro Logo" style="height: 40px; width: auto; border-radius: 8px;">
+                    <span>Drive Gallery <span style="color: var(--accent)">Pro</span></span>
+                </a>
+                <div class="nav-links">
+                    <a href="#features">Features</a>
+                    <a href="#setup">Setup</a>
+                    <a href="#roadmap">Roadmap</a>
+                    <a href="#faq">FAQ</a>
+                    <a href="https://profiles.wordpress.org/sdevaoffl/" target="_blank">Author</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero" style="position: relative; overflow: hidden;">
+        <!-- Banner Image as background overlay for Hero -->
+        <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url('assets/images/banner-1544x500.png') center/cover no-repeat; opacity: 0.1; filter: grayscale(100%) contrast(120%); z-index: -1;"></div>
+        
+        <div class="container">
+            <h1>Premium Google Drive <br><span style="color: var(--secondary)">Gallery Experience</span></h1>
+            <p>Don't let your media library bloat your server. Serve high-speed images and videos directly from Google Drive with a professional, lightning-fast interface.</p>
+            
+            <div class="cta-group">
+                <a href="https://wordpress.org/plugins/drive-gallery-pro/" class="cta-btn">Download Now &rarr;</a>
+                <a href="#setup" class="cta-btn secondary">Quick Setup</a>
+            </div>
+            
+            <div class="mockup">
+                <div style="background: #1e293b; padding: 14px 24px; border-bottom: 1px solid var(--glass-border); text-align: left; display: flex; gap: 8px; align-items: center;">
+                    <span style="width: 12px; height: 12px; background: #ff5f56; border-radius: 50%;"></span>
+                    <span style="width: 12px; height: 12px; background: #ffbd2e; border-radius: 50%;"></span>
+                    <span style="width: 12px; height: 12px; background: #27c93f; border-radius: 50%;"></span>
+                    <span style="margin-left: 20px; font-size: 0.8rem; color: var(--text-gray); font-family: monospace;">wp-admin/drive-gallery-pro/dashboard</span>
+                </div>
+                <img src="assets/images/screenshot-1.png" alt="Drive Gallery Pro Dashboard">
+            </div>
+        </div>
+    </section>
+
+    <section class="intro-section">
+        <div class="container" style="display: flex; align-items: center; gap: 80px;">
+            <div class="intro-content">
+                <span style="color: var(--accent); font-weight: 700; text-transform: uppercase; letter-spacing: 2px; font-size: 0.9rem;">What is Drive Gallery Pro?</span>
+                <h2>Sync Your Media, <br>Simplify Your Workflow</h2>
+                <p>Drive Gallery Pro is the bridge between your Google Drive and your WordPress site. We designed it for users who want to host high-resolution galleries without worrying about server storage or slow loading times.</p>
+                <p>By leveraging the power of Google's global infrastructure, your images and videos are served instantly to your visitors, while you maintain full control over your media directly from your Drive folders.</p>
+                <a href="#features" style="color: var(--secondary); text-decoration: none; font-weight: 700; border-bottom: 2px solid var(--secondary); padding-bottom: 5px;">Explore all features &rarr;</a>
+            </div>
+            <div class="intro-image">
+                <img src="assets/images/logo.png" alt="Drive Gallery Pro Logo">
+            </div>
+        </div>
+    </section>
+
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <h4>100%</h4>
+                    <p>Responsive Grid</p>
+                </div>
+                <div class="stat-item">
+                    <h4>0.5s</h4>
+                    <p>Load Latency</p>
+                </div>
+                <div class="stat-item">
+                    <h4>Zero</h4>
+                    <p>Server Impact</p>
+                </div>
+                <div class="stat-item">
+                    <h4>GPL</h4>
+                    <p>Open Source</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-title" style="text-align: center; margin-bottom: 80px;">
+                <span style="color: var(--accent); font-weight: 700; text-transform: uppercase; letter-spacing: 2px; font-size: 0.9rem;">Powerful Core Features</span>
+                <h2>Performance Meets Elegance</h2>
+            </div>
+            
+            <div class="grid">
+                <div class="card">
+                    <div class="card-icon">📂</div>
+                    <h3>Intelligent Sync</h3>
+                    <p>Real-time folder mapping. Organize your files on Google Drive, and watch them appear instantly on your site without manual uploads.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">⚡</div>
+                    <h3>Infinite AJAX</h3>
+                    <p>Ultra-smooth navigation. Browse hundreds of subfolders with zero page reloads, keeping your visitors engaged and your site fast.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">🎨</div>
+                    <h3>Premium Lightbox</h3>
+                    <p>A high-performance lightbox designed for modern browsers. Supports high-res images and 4K video playback with ease.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">🧩</div>
+                    <h3>Elementor Native</h3>
+                    <p>Full Elementor integration. Drag, drop, and customize your gallery directly inside the Elementor editor with live preview.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">📱</div>
+                    <h3>Mobile Optimized</h3>
+                    <p>Touch-first design. Custom column controls for every breakpoint ensures your media looks stunning on any device.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">🔒</div>
+                    <h3>OAuth2 Security</h3>
+                    <p>Enterprise-grade security using official Google API. Full control over scopes ensuring your Drive stays private and secure.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Action Section -->
+    <section style="padding: 120px 0; background: linear-gradient(180deg, transparent, rgba(6, 182, 212, 0.05), transparent);">
+        <div class="container">
+            <div class="section-title" style="text-align: center; margin-bottom: 60px;">
+                <span style="color: var(--secondary); font-weight: 700; text-transform: uppercase; letter-spacing: 2px; font-size: 0.9rem;">Modern Interface</span>
+                <h2>See it in Action</h2>
+            </div>
+            <div style="border-radius: 30px; overflow: hidden; border: 1px solid var(--glass-border); box-shadow: 0 0 50px rgba(0,0,0,0.8); background: #000; height: 500px; position: relative;">
+                <img src="assets/images/screenshot-2.png" alt="Gallery in Action" style="width: 100%; height: 100%; object-fit: cover; object-position: top center; display: block; opacity: 0.9;">
+            </div>
+        </div>
+    </section>
+
+    <section id="setup" class="setup-guide">
+        <div class="container">
+            <div class="section-title" style="text-align: center; margin-bottom: 80px;">
+                <span style="color: var(--secondary); font-weight: 700; text-transform: uppercase; letter-spacing: 2px; font-size: 0.9rem;">Setup Documentation</span>
+                <h2>Three Steps to Launch</h2>
+            </div>
+
+            <div style="max-width: 900px; margin: 0 auto;">
+                <div class="step-item">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Connect API</h3>
+                        <p>Enable Google Drive API in your Cloud Console and enter your Client ID & Secret in the plugin settings.</p>
+                    </div>
+                </div>
+
+                <div class="step-item">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>Authorize</h3>
+                        <p>Click "Connect Google Account" to authorize read-only access. No complicated file permissions needed.</p>
+                    </div>
+                </div>
+
+                <div class="step-item">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>Display</h3>
+                        <p>Use the Elementor widget or the powerful shortcode to showcase your media collection anywhere.</p>
+                        <div class="code-block">[drvgp_gallery id="YOUR_FOLDER_ID"]</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="roadmap" class="roadmap">
+        <div class="container">
+            <div class="section-title" style="text-align: center; margin-bottom: 80px;">
+                <span style="color: var(--accent); font-weight: 700; text-transform: uppercase; letter-spacing: 2px; font-size: 0.9rem;">Product Roadmap</span>
+                <h2>What's Coming Next?</h2>
+            </div>
+
+            <div class="roadmap-grid">
+                <div class="roadmap-item">
+                    <span class="status-badge status-progress">In Progress</span>
+                    <h3>Native Gutenberg Block</h3>
+                    <p>Dedicated WordPress block editor support for a seamless visual editing experience within the core editor.</p>
+                </div>
+                <div class="roadmap-item">
+                    <span class="status-badge status-planned">Planned</span>
+                    <h3>Multi-Cloud Sync</h3>
+                    <p>Support for Dropbox, OneDrive, and Box. Manage all your remote cloud media from a single dashboard.</p>
+                </div>
+                <div class="roadmap-item">
+                    <span class="status-badge status-planned">Planned</span>
+                    <h3>Premium Layouts</h3>
+                    <p>Advanced Masonry, Justified, and Slider layouts with deep customization controls for design-first users.</p>
+                </div>
+                <div class="roadmap-item">
+                    <span class="status-badge status-planned">Planned</span>
+                    <h3>Deep Analytics</h3>
+                    <p>Track gallery views, file downloads, and user engagement metrics directly from your WordPress admin.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq" class="faq">
+        <div class="container">
+            <div class="section-title" style="text-align: center; margin-bottom: 80px;">
+                <span style="color: var(--secondary); font-weight: 700; text-transform: uppercase; letter-spacing: 2px; font-size: 0.9rem;">Common Questions</span>
+                <h2>Frequently Asked Questions</h2>
+            </div>
+
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Is Drive Gallery Pro really free?</span>
+                        <div class="faq-icon">⊕</div>
+                    </div>
+                    <div class="faq-answer">
+                        Yes! The plugin is 100% free and open-source under the GPLv2 license. You can use it on personal and commercial projects without any hidden fees.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Will it slow down my website?</span>
+                        <div class="faq-icon">⊕</div>
+                    </div>
+                    <div class="faq-answer">
+                        Absolutely not. Unlike traditional gallery plugins that store images on your server, we serve media directly from Google's high-speed global infrastructure. Combined with our AJAX navigation, your site remains lightning-fast.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Do I need to be a developer to set it up?</span>
+                        <div class="faq-icon">⊕</div>
+                    </div>
+                    <div class="faq-answer">
+                        No technical skills required! Just follow our 3-step setup guide. If you can copy and paste a Client ID, you can use Drive Gallery Pro.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Is it compatible with Elementor?</span>
+                        <div class="faq-icon">⊕</div>
+                    </div>
+                    <div class="faq-answer">
+                        Yes, we have native Elementor support. A dedicated widget will appear in your Elementor sidebar once the plugin is activated, allowing for full drag-and-drop customization.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Can I display videos from Google Drive?</span>
+                        <div class="faq-icon">⊕</div>
+                    </div>
+                    <div class="faq-answer">
+                        Yes! The plugin supports both images and video files. Our premium lightbox is optimized to play Google Drive videos smoothly on all devices.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-form-container">
+                    <div class="section-title" style="text-align: left; margin-bottom: 40px;">
+                        <span style="color: var(--secondary); font-weight: 700; text-transform: uppercase; letter-spacing: 2px; font-size: 0.9rem;">Get in Touch</span>
+                        <h2>Have Questions? <br>Let's Talk.</h2>
+                    </div>
+                    <form action="https://formspree.io/f/xjglnwvl" method="POST" class="contact-form">
+                        <div class="form-group">
+                            <label>Your Name</label>
+                            <input type="text" name="name" placeholder="John Doe" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Your Email</label>
+                            <input type="email" name="email" placeholder="john@example.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Message</label>
+                            <textarea name="message" rows="5" placeholder="How can we help you?" required></textarea>
+                        </div>
+                        <button type="submit" class="cta-btn" style="width: 100%; border: none; cursor: pointer;">Send Message</button>
+                    </form>
+                </div>
+                <div class="contact-info-card">
+                    <div class="info-item">
+                        <div class="info-icon">✉</div>
+                        <div class="info-text">
+                            <h4>Direct Support</h4>
+                            <p>Email us at <strong>sdevaofficil@gmail.com</strong> for personalized assistance and custom feature requests.</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <div class="info-icon">⏱</div>
+                        <div class="info-text">
+                            <h4>Fast Response</h4>
+                            <p>We typically respond to all inquiries within 24 to 48 hours during business days.</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <div class="info-icon">💡</div>
+                        <div class="info-text">
+                            <h4>Feedback Driven</h4>
+                            <p>Your suggestions help shape the future of Drive Gallery Pro. We love hearing your ideas!</p>
+                        </div>
+                    </div>
+
+                    <div class="support-badge">
+                        ✨ PROUDLY OPEN SOURCE & GPL LICENSED
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="final-cta">
+        <div class="container">
+            <h2>Ready to transform your gallery?</h2>
+            <p style="color: var(--text-gray); margin-bottom: 40px; font-size: 1.2rem;">Join our early adopters and start showcasing your Drive media like a pro.</p>
+            <a href="https://wordpress.org/plugins/drive-gallery-pro/" class="cta-btn">Download for Free</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="logo" style="margin-bottom: 20px;">
+                        <img src="assets/images/logo.png" alt="Drive Gallery Pro Logo" style="height: 30px; width: auto; border-radius: 6px; margin-right: 10px;">
+                        <span>Drive Gallery Pro</span>
+                    </div>
+                    <p>Professional Google Drive gallery solution for WordPress. Fast, secure, and built for modern agencies.</p>
+                    <div class="social-links">
+                        <a href="https://github.com/sdevaoffl" class="social-icon" target="_blank" title="GitHub">𝔾</a>
+                        <a href="https://linkedin.com/in/sdevaoffl" class="social-icon" target="_blank" title="LinkedIn">𝕃</a>
+                        <a href="https://reddit.com/u/sdevaoffl" class="social-icon" target="_blank" title="Reddit">ℝ</a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h5>Quick Links</h5>
+                    <ul class="footer-links">
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#setup">Setup Guide</a></li>
+                        <li><a href="#roadmap">Product Roadmap</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h5>Resources</h5>
+                    <ul class="footer-links">
+                        <li><a href="https://wordpress.org/plugins/drive-gallery-pro/" target="_blank">WP.org Plugin</a></li>
+                        <li><a href="https://wordpress.org/support/plugin/drive-gallery-pro/" target="_blank">Support Forum</a></li>
+                        <li><a href="https://profiles.wordpress.org/sdevaoffl/" target="_blank">Author Profile</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h5>Stay in Touch</h5>
+                    <p>Join our mission to build the best cloud media gallery for WordPress.</p>
+                    <p style="margin-top: 10px; font-size: 0.8rem; opacity: 0.7;">&copy; 2026 Drive Gallery Pro.</p>
+                </div>
+            </div>
+            <div class="copyright-bar">
+                <span>Distributed under GPLv2 License.</span>
+                <span>Made with passion by <a href="https://profiles.wordpress.org/sdevaoffl/" target="_blank" style="color: var(--secondary); text-decoration: none;">sdevaoffl</a>.</span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top" id="backToTop">↑</a>
+
+    <!-- External JS -->
+    <script src="js/main.js"></script>
+</body>
+</html>
